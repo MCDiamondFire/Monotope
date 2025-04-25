@@ -6,7 +6,11 @@ import org.bukkit.entity.Player;
 /**
  * Utility class for converting Bukkit API instances to extended Mono instances.
  */
-public class Mono {
+public final class Mono {
+
+    // Private constructor to prevent instantiation
+    private Mono() {
+    }
 
     /**
      * Gets a {@link MonoPlayer} instance from a {@link Player}.
