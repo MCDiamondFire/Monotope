@@ -14,6 +14,7 @@ public class Mono {
      * @return A {@link MonoPlayer} instance.
      */
     public static MonoPlayer player(Player player) {
+        // balls.
         requireCastable(MonoPlayer.class, player);
         return (MonoPlayer) player;
     }
